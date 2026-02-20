@@ -1,0 +1,6 @@
+print("Space Waves!")
+waves = input("What are the space wave readings today?")
+numbers = waves.split()
+wave_list = list(map(int, numbers))
+wave_list.sort()
+print(wave_list)
